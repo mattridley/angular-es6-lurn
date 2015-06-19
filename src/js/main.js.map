@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.ts"],"names":[],"mappings":"AAEA,IAAI,GAAG,GAAG,QAAQ,CAAC","file":"main.js","sourcesContent":["import { Customer } from './Customer';\n\nlet bob = 'freddy';"],"sourceRoot":"/source/"}
