@@ -11,7 +11,6 @@ gulp.task('clean-ts', function (cb) {
         tsAppPath + '**/*.js.map'
     ];
 
-    // delete the files
     del(typeScriptGenFiles, cb);
 });
 
