@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-md-12">
+        <div ng-repeat="list in state.toDoLists"
+             class="todo-list">
+            <p>
+                <strong>Name:</strong> {{list.name}}
+            </p>
+            <p>
+                <strong>Items:</strong>
+                <ul>
+                    <li ng-repeat="item in list.items">
+                        {{item.summary}}
+                    </li>
+                </ul>
+            </p>
+            <hr>
+        </div>
+    </div>
+</div>
