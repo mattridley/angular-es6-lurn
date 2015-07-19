@@ -19,7 +19,7 @@ export default function routes($stateProvider) {
                     new ToDoList(
                         "katkins",
                         "Kirsty Atkins",
-                        [new ToDoItem("Make Matt tea","","2015-07-19", false)])
+                        [new ToDoItem("Make Matt some tea","","2015-07-19", false)])
                 ]
             }
         });
